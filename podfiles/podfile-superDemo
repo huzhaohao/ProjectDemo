@@ -1,0 +1,19 @@
+
+target 'superDemo' do
+  pod 'MJExtension', '~> 3.0.13'
+#pod 'SDWebImage', '~> 3.8.1'
+  pod 'DZNEmptyDataSet', '~> 1.8.1'
+  pod 'WebViewJavascriptBridge', '~> 5.0.5'
+  pod 'KRVideoPlayer', '~> 1.0.1'
+  pod 'Masonry', '~> 1.0.1'
+  pod 'NSDate+Helper', '~> 1.0.4'
+  pod 'RSAUtil', '~> 1.0'
+  pod 'MLTransition', '~> 2.1.3'
+  pod 'YYWebImage', '~> 1.0.5'
+  pod 'BaiduMobStat'
+  pod 'YT_CommonViews',:git => 'git@gitlab.shgsec.com:mobile-stock-ios-libs/YT_CommonViews.git'
+    ### 键盘
+    pod 'YTKeyBoardView', :git => 'git@gitlab.shgsec.com:mobile-stock-ios-libs/YT_KeyBoardView.git', :branch => 'feature/ZXJTA-keyboard'
+    ### YT_HTTPSCerTrustManager
+    pod "YT_HTTPSCerTrustManager", :git=>'git@gitlab.shgsec.com:mobile-stock-ios-libs/YT_HTTPSCerTrustManager.git', :tag=>'0.1.0'
+end
